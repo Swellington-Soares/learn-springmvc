@@ -62,5 +62,17 @@ animado com o progresso e o aprendizado que esse projeto tem proporcionado.
 - Configuração de elementos centrais como interceptors, views estáticas e mensagens traduzíveis (message sources)
 - Criação e configuração de jobs (tarefas agendadas)  
 
+### 🧩 frontend
+
+- Integrar e configurar o JTE usando Kotlin
+- Integrar e configurar o tailwindcss
+- Composição de componentes
+
+## ✨ Testes
+
+- Criação de testes automatizados para verificar funcionalidades individuais
+- Utilização de containers para testar operações no banco de dados isoladamente
+- Testes automatizados dos endpoints (GET, POST, etc.)
+
 
 ### Imagens e diagramas em breve...
