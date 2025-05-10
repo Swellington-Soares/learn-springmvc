@@ -1,0 +1,35 @@
+gg:
+  jte:
+    development-mode: true
+    template-suffix: .kte
+
+spring:
+  security:
+    rememberme:
+      token-max-time-in-seconds: 604800 #7 days
+      key: 31bc40ff-84a6-4124-9193-8e3603581f39
+
+  application:
+    name: myblog2
+  mail:
+    host: localhost
+    port: 1025
+  jpa:
+    properties:
+      javax:
+        persistence:
+          validation:
+            mode: none
+    hibernate:
+      ddl-auto: none
+
+  messages:
+    basename: "messages, config.i18n.messages, i18n.messages"
+    fallback-to-system-locale: false
+  datasource:
+    password: root
+    username: root
+    url: jdbc:mariadb://localhost:3306/blog
+  threads:
+    virtual:
+      enabled: true

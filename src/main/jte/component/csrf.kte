@@ -1,0 +1,7 @@
+@import org.springframework.security.web.csrf.CsrfToken
+
+@param csrf: CsrfToken?
+
+@if (csrf != null)
+    <input type="hidden" name="${csrf.parameterName}" value="${csrf.token}" />
+@endif

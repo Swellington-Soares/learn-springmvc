@@ -1,0 +1,18 @@
+@import dev.swell.myblog2.dto.response.AlertMessage
+@import dev.swell.myblog2.dto.response.AlertMessageType
+
+@param message: AlertMessage?
+
+@if (message != null)
+    @if (message.type == AlertMessageType.DEFAULT)
+        @template.component._alert-message.simple-alert(message = message)
+    @elseif(message.type == AlertMessageType.SUCCESS)
+        @template.component._alert-message.success-alert(message = message)
+    @elseif(message.type == AlertMessageType.INFO)
+        @template.component._alert-message.info-alert(message = message)
+    @elseif(message.type == AlertMessageType.ERROR)
+        @template.component._alert-message.error-alert(message = message)
+    @elseif(message.type == AlertMessageType.WARNING)
+        @template.component._alert-message.warn-alert(message = message)
+    @endif
+@endif

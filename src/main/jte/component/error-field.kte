@@ -1,0 +1,7 @@
+@param errors: HashMap<String, String>?
+@param field: String?
+
+@if (!field.isNullOrBlank() && (errors?.containsKey(field) == true))
+    <span class="text-red-500 text-sm dark:text-red-400">${ errors.get(field) }</span>
+@endif
+

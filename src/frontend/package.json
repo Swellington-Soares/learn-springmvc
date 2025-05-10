@@ -1,0 +1,17 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "tailwind:dev": "npx @tailwindcss/cli -i ./src/input.css -o ../main/resources/static/css/main.css --watch",
+    "tailwind:build": "npx @tailwindcss/cli -i ./src/input.css -o ../main/resources/static/css/main.css"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.5",
+    "@tailwindcss/language-server": "^0.14.16",
+    "flowbite": "^3.1.2",
+    "tailwindcss": "^4.1.5"
+  }
+}
