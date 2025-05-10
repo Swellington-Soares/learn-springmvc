@@ -38,7 +38,7 @@ animado com o progresso e o aprendizado que esse projeto tem proporcionado.
 
 # O que aprendi até o momento [TAG 0.1](https://github.com/Swellington-Soares/learn-springmvc/releases/tag/0.1)
 
-## 🔐 Spring Security
+### 🔐 Spring Security
 
 - Configuração do fluxo de login personalizado
 - Definição de exceções personalizadas
@@ -46,7 +46,7 @@ animado com o progresso e o aprendizado que esse projeto tem proporcionado.
 - Sistema de "lembre-me" com persistência via token no lado do servidor
 - Controle de permissões de acesso nos endpoints
 
-## 🗄️ JPA
+### 🗄️ JPA
 
 - Criação de classes de entidades
 - Anotação de campos com validações
@@ -54,11 +54,11 @@ animado com o progresso e o aprendizado que esse projeto tem proporcionado.
 - Criação de queries em repositórios utilizando o padrão de nomenclatura de métodos
 - Utilização do [Flyway](https://www.red-gate.com/products/flyway/community/) para versionamento e estruturação do banco de dados
 
-## 🚀 Spring Boot (Geral)
+### 🚀 Spring Boot (Geral)
 
 - Desenvolvimento seguindo o padrão MVC
 - Uso do [MapStruct](https://mapstruct.org/) para mapeamento entre objetos
-- Aplicação do padrão DTO (Data Transfer Object) para comunicação entre cliente-servidor e entre camadas
+- Aplicação do padrão DTO (Data Transfer Object) para envio de dados entre cliente-servidor e entre camadas
 - Configuração de elementos centrais como interceptors, views estáticas e mensagens traduzíveis (message sources)
 - Criação e configuração de jobs (tarefas agendadas)  
 
